@@ -1,3 +1,13 @@
+import Description from "../components/Description";
+import Map from "../components/Map";
+import LineChart from "../components/LineChart";
+
 export default function Home() {
-  return <h1 className="text-3xl font-bold text-red-500">Home</h1>;
+  return (
+    <div className="container mx-auto">
+      <Description />
+      <Map />
+      <LineChart />
+    </div>
+  );
 }
